@@ -27,11 +27,19 @@ main {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
   }
 
   aside img {
     width: 200px;
     height: auto;
+  }
+
+  aside h2{
+    position: absolute;
+    top: 5px;
+    right: 120px;
+    color: chartreuse; 
   }
 
   main img {
