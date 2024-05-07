@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 nav {
   background-color:rgb(189, 196, 216) ;
   padding: 10px;
@@ -12,7 +17,7 @@ display: block;
 
   
 main {
-  max-width: 840px;
+  max-width: 640px;
 }
   aside {
     width: 20rem;
@@ -35,7 +40,8 @@ main {
     border: 1px solid #123ba0;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    
+    float: right;
+    margin: 0 0 1rem 1rem;
   }
 
   p { padding: 0;}
@@ -46,11 +52,7 @@ main {
     text-align: center;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  
 
   .box {
     margin: 1rem;
@@ -59,10 +61,7 @@ main {
     background-color: #ddd;
     color: #000;
   }
-  aside {
-    width: 20em;
-    text-align: center;
-  }
+
 
   
   
