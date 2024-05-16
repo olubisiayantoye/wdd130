@@ -23,12 +23,16 @@ main {
         }    
 
 
-nav a {
-color: #123ba0;
-padding: 10px;
-display: block;
 
-  }
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff; /% shorthand for white %/
+}
 
   body{
     font-size: 16px;
@@ -111,4 +115,9 @@ main {
 header, footer {
   max-width: 840px;
   margin: 0 auto;
+}
+
+header, .grid, footer {
+  max-width: 1200px; /* Adjust according to your design and content */
+  margin: 0 auto; /* Center horizontally */
 }
