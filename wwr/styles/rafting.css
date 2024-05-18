@@ -1,3 +1,4 @@
+
 /* rafting.css */
 
 /* Import Google Fonts */
@@ -7,7 +8,7 @@
 :root {
   --primary-color: #007bff; 
   --secondary-color: #28a745; /* Example secondary color */
-  --text-color: #333; /* Example text color */
+  --text-color: #281e1fdb; /* Example text color */
 }
 
 /* Styling headings */
@@ -31,11 +32,233 @@ p {
 
 /* Limit the entire width of the page */
 body {
-  max-width: 1200px; /* Example max-width */
+  /* max-width: 1200px;  Example max-width */
   margin: 0 auto; /* Center content horizontally */
+  padding-left:10%;
+  padding-right: 10%;
 }
 
-/* Additional styling can be added here */
 
 
 
+/* Header styles */
+.site-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #2276ca;
+  color: white;
+  padding: 1rem;
+}
+
+.site-header .logo img {
+  max-height: 80px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-nav p {
+  margin: 0 1rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.main-nav a:hover {
+  color: #1abc9c;
+}
+
+/* Main content styles */
+.home_grid {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* History section styles */
+section {
+  margin-bottom: 2rem;
+}
+
+.history-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.history-section h2 {
+  margin-bottom: 1rem;
+}
+
+.history-section p {
+  margin-bottom: 1rem;
+}
+
+/* Adventure section styles */
+.figure_flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.figure_flex figure {
+  flex: 1 1 calc(20% - 1rem);
+  margin: 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+}
+
+.figure_flex img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.figure_flex figcaption {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #f7f7f7;
+}
+
+
+
+footer nav {
+  margin-top: 0.5rem;
+}
+
+footer nav a {
+  margin: 0 0.5rem;
+}
+
+footer nav img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .main-nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .main-nav p {
+      margin: 0.5rem 0;
+  }
+
+  .figure_flex {
+      flex-direction: column;
+  }
+
+  .figure_flex figure {
+      flex: 1 1 100%;
+  }
+}
+
+/* Adventures section styles */
+.adventures-section {
+  margin-bottom: 2rem;
+}
+
+.adventures-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.figure_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.figure_grid figure {
+  margin: 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+}
+
+.figure_grid img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.figure_grid figcaption {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #f7f7f7;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .figure_grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .figure_grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c1dbf6;
+  color: white;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+footer nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+footer nav a {
+  display: inline-block;
+}
+
+footer nav img {
+  width: 32px;
+  height: 32px;
+}
