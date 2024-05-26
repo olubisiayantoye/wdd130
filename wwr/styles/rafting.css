@@ -262,3 +262,90 @@ footer nav img {
   width: 32px;
   height: 32px;
 }
+
+
+
+.company-info {
+  margin-bottom: 20px;
+}
+
+.google-map {
+  
+}
+
+.employee-profiles {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.employee {
+  text-align: center;
+}
+
+.employee img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Add styles for Contact Form section */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form input {
+  margin-bottom: 2rem;
+}
+
+.contact-form form {
+  max-width: 500px;
+}
+.contact-form h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #2980b9;
+}
+
+.contact-form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3498db;
+}
+
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:400px;
+    width:100%;
+  }
+           
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;width:800px;
+  }
+     
