@@ -269,9 +269,7 @@ footer nav img {
   margin-bottom: 20px;
 }
 
-.google-map {
-  
-}
+
 
 .employee-profiles {
   margin-bottom: 30px;
@@ -335,8 +333,7 @@ footer nav img {
   box-shadow: 0 0 0 2px #3498db;
 }
 
-
-.mapouter{
+.google-map {
     position:relative;
     text-align:right;
     height:400px;
