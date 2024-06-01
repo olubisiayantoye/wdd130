@@ -38,10 +38,15 @@ body {
   padding-right: 10%;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: var(--primary-color);
+  text-align: center;
+}
 
 
-
-/* Header styles */
+/* Header styles 
 .site-header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -53,7 +58,7 @@ body {
 
 .site-header .logo img {
   max-height: 80px;
-}
+}*/
 
 .main-nav {
   display: flex;
