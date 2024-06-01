@@ -1,10 +1,4 @@
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-  }
-  
-  :root {
+:root {
     --primary-color: #1E88E5; /* Blue */
     --secondary-color: #FFC107; /* Yellow */
     --accent1-color: #4CAF50; /* Green */
@@ -28,7 +22,11 @@ body {
     padding: 20px;
     background-color: var(--accent1-color);
   }
-  
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
   p {
     padding: 25px;
   }
